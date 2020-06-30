@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+header {
+  padding: 10px;
+}
+
+/* header img {
+  height: 80px;
+  padding-right: 50px;
+} */
+
+header > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-style: normal;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+  display: flex;
+  /* border: rgb(25, 0, 255) solid 2px; */
+}
+
+.content > div > div {
+  cursor: pointer;
+}
+.container form {
+  padding: 10px 20px 30px 10px;
+  /* text-align: left; */
+  display: flex;
+  flex-direction: column;
+  border: rgb(185, 185, 185) solid 0.5px;
+}
+.textform {
+  color: rgb(92, 90, 90);
+  padding: 10px 10px 10px 0px;
+}
+.saisieform {
+  width: 300px;
+  height: 30px;
+  border: rgb(35, 152, 219) 0.5px solid;
+}
+.submit {
+  display: flex;
+  width: 200px;
+  padding: 10px 10px 10px 0px;
+  text-align: center;
+  color: #880303;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.result {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  font-style: normal;
+  width: 500px;
+  background-color: rgb(226, 223, 223, 0.5);
+  font-size: 20px;
+
+  padding: 10px;
+}
+
+.resultdeux {
+  padding-bottom: 20px;
+  padding-left: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  color: rgb(60, 60, 131);
+  font-size: 20px;
+}
+.resulttrois {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(121, 8, 70);
+  font-size: 20px;
+}
+.submit2 {
+  display: flex;
+  width: 200px;
+  padding: 10px 10px 10px 0px;
+  text-align: center;
+  color: #880303;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background-color: #a4bae24d;
+  border: none;
+}
